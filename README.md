@@ -1,4 +1,7 @@
-# Channelformer - TWC paper https://ieeexplore.ieee.org/document/10048783
+# Channelformer - TWC paper
+
+https://ieeexplore.ieee.org/document/10048783
+
 Code for Channelformer: Attention based Neural Solution for Wireless Channel Estimation and Effective Online Training 
 
 We propose an encoder-decoder structure (called Channelformer) which exploits the attention mechanism to focus on the most important input information. 
