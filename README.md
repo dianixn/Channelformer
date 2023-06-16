@@ -16,7 +16,7 @@ Cite as:
 
 %%%
 
-These "critical elements" should be "crucial elements"!!! I use overleaf to edit the paper, sometimes I use "replace all" and I replaced "crucial" to "critical" by mistake. 
+These "critical elements" should be "crucial elements"!!! I use overleaf to edit the paper, sometimes I use "replace all" and I replaced "crucial" to "critical" by mistake. But "critical" does have a eamning of "important, vital" from dictionary. 
 
 %%%
 
