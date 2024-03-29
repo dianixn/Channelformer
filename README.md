@@ -19,8 +19,6 @@ Cite as:
 Abstract:
 In this paper, we propose an encoder-decoder neural architecture (called Channelformer) to achieve improved channel estimation for orthogonal frequency-division multiplexing (OFDM) waveforms in downlink scenarios. The self-attention mechanism is employed to achieve input precoding for the input features before processing them in the decoder. In particular, we implement multi-head attention in the encoder and a residual convolutional neural architecture as the decoder, respectively. We also employ a customized weight-level pruning to slim the trained neural network with a fine-tuning process, which reduces the computational complexity significantly to realize a low complexity and low latency solution. This enables reductions of up to 70% in the parameters, while maintaining an almost identical performance compared with the complete Channelformer. We also propose an effective online training method based on the fifth generation (5G) new radio (NR) configuration for the modern communication systems, which only needs the available information at the receiver for online training. Using industrial standard channel models, the simulations of attention-based solutions show superior estimation performance compared with other candidate neural network methods for channel estimation. 
 
-Pruning: What does compact design mean? (Confused as well
-
 	Run Demonstration_of_H_Rayleigh_Propogation_Channel and Demonstration_of_H_Doppler_Propogation_Channel for test the trained neural networks on the extended SNR and Doppler shifts. 
 
 	Run Dynamic_adaptation_batch for online training test 
