@@ -111,7 +111,7 @@ In this paper, we propose an encoder-decoder neural architecture (called Channel
 
 %%% Comments 
 
-Run with MATLAB 2021B, with fully-installed deep learning toolbox because it requires customized training. You also have to copy all the files from Naren_channel into main path and carefully read the license of the Naren channel. 
+Run with MATLAB, with fully-installed deep learning toolbox because it requires customized training. You also have to copy all the files from Naren_channel into main path and carefully read the license of the Naren channel. 
 
 You may have a problem when do pruning. The reason is that, the name of some layers differ for offline Channelformer and online Channelformer. Change that to 31/11 for different version. 
 
