@@ -27,7 +27,7 @@ QPSK_signal = reshape(QPSK_symbol, Num_of_FFT, Num_of_symbols);
 
 % Pilot inserted
 [data_in_IFFT, data_location] = OFDM.Pilot_Insert(Pilot_value_user, Pilot_location_symbols, Pilot_location, Frame_size, Num_of_FFT, QPSK_signal);
-[data_for_channel, ~] = OFDM.Pilot_Insert(1, Pilot_location_symbols, kron((1 : Num_of_subcarriers)', ones(1, Num_of_pilot)), Frame_size, Num_of_FFT, ones(Num_of_FFT, Num_of_symbols));
+[data_for_channel, ~] = OFDM.Pilot_Insert(1, Pilot_location_symbols, kron((1 : Num_of_FFT)', ones(1, Num_of_pilot)), Frame_size, Num_of_FFT, ones(Num_of_FFT, Num_of_symbols));
 
 % OFDM Transmitter
 [Transmitted_signal, ~] = OFDM.OFDM_Transmitter(data_in_IFFT, Num_of_FFT, length_of_CP);
