@@ -37,7 +37,7 @@ QPSK_signal_for_channel = ones(Num_of_FFT, Num_of_symbols);
 %% Channel
 
 % AWGN Channel
-SNR_OFDM = SNR + 10 * log10((Num_of_subcarriers / Num_of_FFT));
+SNR_OFDM = SNR;
 
 if strcmp(type, 'multitaps')
     
