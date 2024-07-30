@@ -1,5 +1,5 @@
 Data_Samples = 25000;
-Training_Set_Rate = 0.995;
+Training_Set_Rate = 0.95;
 ValidationFrequency = 300;
 SNR = 5:5:25;
 
