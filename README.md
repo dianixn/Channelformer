@@ -1,7 +1,5 @@
 # Channelformer: Attention based Neural Solution for Wireless Channel Estimation and Effective Online Training 
 
-https://ieeexplore.ieee.org/document/10048783
-
 Code for Luan, Dianxin, and John Thompson. "Channelformer: Attention based Neural Solution for Wireless Channel Estimation and Effective Online Training." IEEE Transactions on Wireless Communications (2023). 
 
 Cite as: 
